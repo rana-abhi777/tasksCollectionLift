@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D7FDC331E4444B700A5CF68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FDC321E4444B700A5CF68 /* AppDelegate.swift */; };
+		1D7FDC351E4444B700A5CF68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FDC341E4444B700A5CF68 /* ViewController.swift */; };
+		1D7FDC381E4444B700A5CF68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7FDC361E4444B700A5CF68 /* Main.storyboard */; };
+		1D7FDC3A1E4444B800A5CF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7FDC391E4444B800A5CF68 /* Assets.xcassets */; };
+		1D7FDC3D1E4444B800A5CF68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D7FDC3B1E4444B800A5CF68 /* LaunchScreen.storyboard */; };
+		1D7FDC471E444B7600A5CF68 /* proxima-nova-bold-589413dde86c7.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D7FDC461E444B7600A5CF68 /* proxima-nova-bold-589413dde86c7.otf */; };
+		1D7FDC491E444D0C00A5CF68 /* proxima-nova-5894155658e6b.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D7FDC481E444D0C00A5CF68 /* proxima-nova-5894155658e6b.otf */; };
+		1D7FDC4B1E4452D800A5CF68 /* rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D7FDC4A1E4452D800A5CF68 /* rectangle.png */; };
+		1D7FDC4D1E44695A00A5CF68 /* SignUpNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FDC4C1E44695A00A5CF68 /* SignUpNameViewController.swift */; };
+		1D7FDC4F1E446A2600A5CF68 /* MainSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FDC4E1E446A2600A5CF68 /* MainSignUpViewController.swift */; };
+		1D7FDC511E446A7600A5CF68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FDC501E446A7600A5CF68 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D7FDC2F1E4444B700A5CF68 /* Feb3RedTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feb3RedTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7FDC321E4444B700A5CF68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D7FDC341E4444B700A5CF68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D7FDC371E4444B700A5CF68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D7FDC391E4444B800A5CF68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D7FDC3C1E4444B800A5CF68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D7FDC3E1E4444B800A5CF68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D7FDC461E444B7600A5CF68 /* proxima-nova-bold-589413dde86c7.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "proxima-nova-bold-589413dde86c7.otf"; path = "../../../Downloads/proxima-nova-bold-589413dde86c7.otf"; sourceTree = "<group>"; };
+		1D7FDC481E444D0C00A5CF68 /* proxima-nova-5894155658e6b.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "proxima-nova-5894155658e6b.otf"; path = "../../../Downloads/proxima-nova-5894155658e6b.otf"; sourceTree = "<group>"; };
+		1D7FDC4A1E4452D800A5CF68 /* rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectangle.png; path = ../../../Downloads/rectangle.png; sourceTree = "<group>"; };
+		1D7FDC4C1E44695A00A5CF68 /* SignUpNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpNameViewController.swift; sourceTree = "<group>"; };
+		1D7FDC4E1E446A2600A5CF68 /* MainSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSignUpViewController.swift; sourceTree = "<group>"; };
+		1D7FDC501E446A7600A5CF68 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D7FDC2C1E4444B400A5CF68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D7FDC261E4444B400A5CF68 = {
+			isa = PBXGroup;
+			children = (
+				1D7FDC311E4444B700A5CF68 /* Feb3RedTask */,
+				1D7FDC301E4444B700A5CF68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D7FDC301E4444B700A5CF68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D7FDC2F1E4444B700A5CF68 /* Feb3RedTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D7FDC311E4444B700A5CF68 /* Feb3RedTask */ = {
+			isa = PBXGroup;
+			children = (
+				1D7FDC321E4444B700A5CF68 /* AppDelegate.swift */,
+				1D7FDC341E4444B700A5CF68 /* ViewController.swift */,
+				1D7FDC361E4444B700A5CF68 /* Main.storyboard */,
+				1D7FDC4A1E4452D800A5CF68 /* rectangle.png */,
+				1D7FDC481E444D0C00A5CF68 /* proxima-nova-5894155658e6b.otf */,
+				1D7FDC461E444B7600A5CF68 /* proxima-nova-bold-589413dde86c7.otf */,
+				1D7FDC391E4444B800A5CF68 /* Assets.xcassets */,
+				1D7FDC3B1E4444B800A5CF68 /* LaunchScreen.storyboard */,
+				1D7FDC3E1E4444B800A5CF68 /* Info.plist */,
+				1D7FDC4C1E44695A00A5CF68 /* SignUpNameViewController.swift */,
+				1D7FDC4E1E446A2600A5CF68 /* MainSignUpViewController.swift */,
+				1D7FDC501E446A7600A5CF68 /* LoginViewController.swift */,
+			);
+			path = Feb3RedTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D7FDC2E1E4444B400A5CF68 /* Feb3RedTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7FDC411E4444B800A5CF68 /* Build configuration list for PBXNativeTarget "Feb3RedTask" */;
+			buildPhases = (
+				1D7FDC2B1E4444B400A5CF68 /* Sources */,
+				1D7FDC2C1E4444B400A5CF68 /* Frameworks */,
+				1D7FDC2D1E4444B400A5CF68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Feb3RedTask;
+			productName = Feb3RedTask;
+			productReference = 1D7FDC2F1E4444B700A5CF68 /* Feb3RedTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D7FDC271E4444B400A5CF68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "code-brew";
+				TargetAttributes = {
+					1D7FDC2E1E4444B400A5CF68 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1D7FDC2A1E4444B400A5CF68 /* Build configuration list for PBXProject "Feb3RedTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D7FDC261E4444B400A5CF68;
+			productRefGroup = 1D7FDC301E4444B700A5CF68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D7FDC2E1E4444B400A5CF68 /* Feb3RedTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D7FDC2D1E4444B400A5CF68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7FDC3D1E4444B800A5CF68 /* LaunchScreen.storyboard in Resources */,
+				1D7FDC471E444B7600A5CF68 /* proxima-nova-bold-589413dde86c7.otf in Resources */,
+				1D7FDC491E444D0C00A5CF68 /* proxima-nova-5894155658e6b.otf in Resources */,
+				1D7FDC4B1E4452D800A5CF68 /* rectangle.png in Resources */,
+				1D7FDC3A1E4444B800A5CF68 /* Assets.xcassets in Resources */,
+				1D7FDC381E4444B700A5CF68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D7FDC2B1E4444B400A5CF68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7FDC4D1E44695A00A5CF68 /* SignUpNameViewController.swift in Sources */,
+				1D7FDC351E4444B700A5CF68 /* ViewController.swift in Sources */,
+				1D7FDC331E4444B700A5CF68 /* AppDelegate.swift in Sources */,
+				1D7FDC511E446A7600A5CF68 /* LoginViewController.swift in Sources */,
+				1D7FDC4F1E446A2600A5CF68 /* MainSignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D7FDC361E4444B700A5CF68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7FDC371E4444B700A5CF68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D7FDC3B1E4444B800A5CF68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7FDC3C1E4444B800A5CF68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D7FDC3F1E4444B800A5CF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D7FDC401E4444B800A5CF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D7FDC421E4444B800A5CF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Feb3RedTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dictionary.Feb3RedTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1D7FDC431E4444B800A5CF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Feb3RedTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dictionary.Feb3RedTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D7FDC2A1E4444B400A5CF68 /* Build configuration list for PBXProject "Feb3RedTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7FDC3F1E4444B800A5CF68 /* Debug */,
+				1D7FDC401E4444B800A5CF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D7FDC411E4444B800A5CF68 /* Build configuration list for PBXNativeTarget "Feb3RedTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7FDC421E4444B800A5CF68 /* Debug */,
+				1D7FDC431E4444B800A5CF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D7FDC271E4444B400A5CF68 /* Project object */;
+}

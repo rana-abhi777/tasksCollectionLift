@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MapTimeLine" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o5O-hJ-Pma" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="97" width="320" height="471"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mpl-8F-XTH">
+                                <rect key="frame" x="0.0" y="20" width="320" height="77"/>
+                                <color key="backgroundColor" red="0.81782594099999995" green="0.3106537613" blue="0.059346598549999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mpl-8F-XTH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="9VM-CY-uki"/>
+                            <constraint firstItem="o5O-hJ-Pma" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="77" id="AuQ-Gb-6Yw"/>
+                            <constraint firstItem="mpl-8F-XTH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Qby-vs-Loq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mpl-8F-XTH" secondAttribute="trailing" constant="-16" id="VQJ-8n-4ZI"/>
+                            <constraint firstItem="o5O-hJ-Pma" firstAttribute="top" secondItem="mpl-8F-XTH" secondAttribute="bottom" id="biw-HN-e9n"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="o5O-hJ-Pma" secondAttribute="bottom" id="ebn-WE-mHV"/>
+                            <constraint firstItem="o5O-hJ-Pma" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rga-Uc-SqC"/>
+                            <constraint firstAttribute="trailing" secondItem="o5O-hJ-Pma" secondAttribute="trailing" id="uIr-4a-3RO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="viewMapShow" destination="o5O-hJ-Pma" id="gSZ-gn-cuR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.25" y="123.59154929577466"/>
+        </scene>
+    </scenes>
+</document>
